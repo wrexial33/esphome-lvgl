@@ -78,7 +78,7 @@ i2c:
 
 # Touchscreen
 touchscreen:
-  - platform: gsl3680
+  - platform: gt911
     id: my_touchscreen
     reset_pin: GPIO22
     interrupt_pin: GPIO21
