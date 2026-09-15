@@ -44,11 +44,6 @@ api:
 logger:
   level: DEBUG
 
-# External components
-external_components:
-  - source: github://kvj/esphome@jd9365_gsl3680
-    components: [gsl3680]
-
 # Power management
 esp_ldo:
   - channel: 3
